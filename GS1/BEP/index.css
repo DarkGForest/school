@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: arial;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-rows: 100px 500px;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items: center;
+    justify-items: center;
+}
+
+nav p {
+    color: white;
+    font-size: 25px;
+}
+
+header {
+    background-image: url("https://cdn.commonlit.org/texts/images/000/001/978/medium/10640386073_dbfc6abe79_z.jpg?1659714204");
+    background-size: 120%;
+    background-position-x: center;
+    background-position-y: -100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+}
+
+header p{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+}
+
+#sections {
+    width: 75%;
+    min-width: 750px;
+    justify-self: center;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    width: calc(100% - 30px);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+section p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+section img {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    justify-self: center;
+}
+
+#links {
+    width: 75%;
+    min-width: 750px;
+    justify-self: center;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
